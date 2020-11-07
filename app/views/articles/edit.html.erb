@@ -1,0 +1,16 @@
+<%= form_for @article do |f| %>
+  <%= f.label 'Article Title' %><br>
+  <%= f.text_field :title %><br>
+ 
+  <%= f.label 'Article Description' %><br>
+  <%= f.text_area :description %><br>
+ 
+  <%= f.submit "Submit Article" %>
+<% end %>
+
+<!-- form_for auto sets up the url where the form will be sent, 
+it determines that @article is NOT A NEW instance of the Article class 
+-- it knows to auto send to the update path>
+
+<!-- since @article is NOT A NEW instance, the text fields/areas will be populated with the corresponding object values
+-- when we submit the form, the form will be routed to the update action>
