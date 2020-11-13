@@ -1,7 +1,7 @@
 # Edit/Update Action
 a test
 ## Rails Controller Conventions
-
+another test
 Now that you know how to implement a create action, the next logical step will
 be to integrate an edit/update action. As you may have noticed, there is a trend
 in Rails conventions where the logic for rendering a form is separate from the
